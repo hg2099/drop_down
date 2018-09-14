@@ -1,0 +1,35 @@
+/*GENERAL*/
+*{
+    font-family: arial;
+    font-weight: bold;
+}
+
+/*CONTAINER*/
+#container{
+    margin: 0px;
+    width: auto;
+    height: 96px;
+    background-color: black;
+    padding: 0px 325px 0px 300px; 
+}
+
+/*Menu Principal*/
+
+.principal{
+    display: inline-block;
+    margin-top: 46px;
+    color: white;
+}
+
+.principal + .principal{
+    margin-left: 50px;
+}
+
+ul{
+    list-style: none;
+}
+
+/*Dropdown*/
+.dropdown{
+    display: none;
+}
