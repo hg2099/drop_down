@@ -10,7 +10,7 @@
     width: auto;
     height: 96px;
     background-color: black;
-    padding: 0px 325px 0px 300px; 
+    padding: 0px 200px 0px 200px; 
 }
 
 /*Menu Principal*/
@@ -18,9 +18,17 @@
 .principal{
     display: inline-block;
     margin-top: 46px;
+}
+
+.principal a{
     color: white;
 }
 
+a{
+    text-decoration: none;
+    display: block;
+    padding: 14px 20px;
+}
 .principal + .principal{
     margin-left: 50px;
 }
@@ -31,5 +39,19 @@ ul{
 
 /*Dropdown*/
 .dropdown{
-    display: none;
+    position: absolute;
+    background-color: #636161;
 }
+
+.principal li ul li {
+    position: relative;
+}
+
+
+.dropdown li a{
+    color: black;
+}
+
+/*Hover*/
+
+
