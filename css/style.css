@@ -10,7 +10,7 @@
     width: auto;
     height: 96px;
     background-color: black;
-    padding: 0px 200px 0px 200px; 
+    padding: 0px 180px 0px 200px; 
 }
 
 /*Menu Principal*/
@@ -53,5 +53,30 @@ ul{
 }
 
 /*Hover*/
+li:hover{
+    font-size: 14px;
+}
 
+.one, .two, .three{
+    display: none;
+}
+
+.hover-1:hover .one,
+.hover-2:hover .two,
+.hover-3:hover .three{
+    display: block;
+}
+
+
+
+.three{
+    position: absolute;
+    left: 150px;
+    top: 85px;
+}
+
+ul.dropdown, .dropdown li{
+    padding: 0px;
+    width: 150px;
+}
 
