@@ -52,9 +52,21 @@ ul{
     color: black;
 }
 
+.three{
+    position: absolute;
+    left: 150px;
+    top: 85px;
+}
+
+ul.dropdown, .dropdown li{
+    padding: 0px;
+    width: 150px;
+}
+
 /*Hover*/
 li:hover{
     font-size: 14px;
+    text-decoration: underline;
 }
 
 .one, .two, .three{
@@ -69,14 +81,5 @@ li:hover{
 
 
 
-.three{
-    position: absolute;
-    left: 150px;
-    top: 85px;
-}
 
-ul.dropdown, .dropdown li{
-    padding: 0px;
-    width: 150px;
-}
 
